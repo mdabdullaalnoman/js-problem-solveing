@@ -32,3 +32,30 @@ function tinyFrind(name){
     }
     return currentName;
 }
+
+
+//3 brickCalculator
+funtion brickCalculator(floor){
+    
+   var floorNum = 99;
+   
+   if(floorNum <= 10){
+       var total1 = 15*floorNum*1000;
+       console.log(total1);
+   }
+   else if(floorNum > 10 && floorNum <= 20){
+       var first10 = 10*15*1000;
+       var extra = (floorNum-10)*12*1000;
+       total2 = first10 + extra;
+       console.log(total2);
+   }
+   else{
+       var ten = 10*15*1000;
+       var twenty =10*12*1000;
+       var extra2 = (floorNum-20)*1000;
+       
+       var tota3 = ten +twenty +extra2;
+       console.log(tota3);
+   }
+  
+}
